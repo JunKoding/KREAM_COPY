@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qfd-tm-2Du">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kGJ-F9-A2y">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,10 +8,87 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller2-->
+        <scene sceneID="VRm-hm-G76">
+            <objects>
+                <tabBarController id="kGJ-F9-A2y" customClass="ViewController2" customModule="KREAM_COPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rdp-zU-alM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Qfd-tm-2Du" kind="relationship" relationship="viewControllers" id="dv0-hT-imM"/>
+                        <segue destination="WDG-wn-awC" kind="relationship" relationship="viewControllers" id="6E8-xc-17Q"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4M-Lp-slH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1917" y="-1639"/>
+        </scene>
+        <!--test2-->
+        <scene sceneID="aNr-2n-Jv4">
+            <objects>
+                <viewController id="WDG-wn-awC" customClass="ViewController" customModule="KREAM_COPY" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vl0-WC-7n6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BRh-Lm-xj2">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="irl-5u-yAa">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="973.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAk-pa-aZF">
+                                                <rect key="frame" x="10" y="10" width="394" height="953.66666666666663"/>
+                                                <mutableString key="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="hAk-pa-aZF" firstAttribute="top" secondItem="irl-5u-yAa" secondAttribute="top" constant="10" id="75L-pD-H0y"/>
+                                            <constraint firstItem="hAk-pa-aZF" firstAttribute="leading" secondItem="irl-5u-yAa" secondAttribute="leading" constant="10" id="SzB-Rd-65D"/>
+                                            <constraint firstAttribute="bottom" secondItem="hAk-pa-aZF" secondAttribute="bottom" constant="10" id="aS4-C8-e6H"/>
+                                            <constraint firstAttribute="trailing" secondItem="hAk-pa-aZF" secondAttribute="trailing" constant="10" id="hI6-B4-Kae"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="irl-5u-yAa" firstAttribute="leading" secondItem="0c6-Lg-uWL" secondAttribute="leading" id="3m2-RZ-dTW"/>
+                                    <constraint firstItem="irl-5u-yAa" firstAttribute="width" secondItem="1cK-rt-RyY" secondAttribute="width" id="6P9-9N-uYW"/>
+                                    <constraint firstItem="irl-5u-yAa" firstAttribute="trailing" secondItem="0c6-Lg-uWL" secondAttribute="trailing" id="T6Y-cU-ImR"/>
+                                    <constraint firstItem="irl-5u-yAa" firstAttribute="bottom" secondItem="0c6-Lg-uWL" secondAttribute="bottom" id="iJi-Gs-vSy"/>
+                                    <constraint firstItem="irl-5u-yAa" firstAttribute="top" secondItem="0c6-Lg-uWL" secondAttribute="top" id="qWO-oD-P2e"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="0c6-Lg-uWL"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="1cK-rt-RyY"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="koy-pW-SHn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BRh-Lm-xj2" firstAttribute="leading" secondItem="koy-pW-SHn" secondAttribute="leading" id="IAa-nk-EIB"/>
+                            <constraint firstItem="BRh-Lm-xj2" firstAttribute="top" secondItem="koy-pW-SHn" secondAttribute="top" id="gSe-0l-ZZj"/>
+                            <constraint firstAttribute="bottom" secondItem="BRh-Lm-xj2" secondAttribute="bottom" id="jCl-1N-hc1"/>
+                            <constraint firstItem="koy-pW-SHn" firstAttribute="trailing" secondItem="BRh-Lm-xj2" secondAttribute="trailing" id="jmP-5V-fpM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="test2" id="UCz-km-3Ia"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xwn-KV-L3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1445" y="-705"/>
+        </scene>
+        <!--test1-->
         <scene sceneID="Hy4-r2-Kb1">
             <objects>
-                <viewController id="Qfd-tm-2Du" sceneMemberID="viewController">
+                <viewController id="Qfd-tm-2Du" customClass="ViewController" customModule="KREAM_COPY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lj0-x4-x2g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,13 +101,13 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alo-MG-QLg">
                                                 <rect key="frame" x="10" y="9.9999999999999432" width="394" height="1014.6666666666665"/>
-                                                <mutableString key="text">Where does it come from?
+                                                <string key="text">Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</mutableString>
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -65,11 +142,13 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                             <constraint firstItem="Wo6-16-QVQ" firstAttribute="top" secondItem="AfH-1q-Go2" secondAttribute="top" id="wTd-pc-yeb"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="test1" id="qw5-M5-h36"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GG7-7N-RGk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-657.97101449275362" y="-1109.5982142857142"/>
+            <point key="canvasLocation" x="-2304.3478260869565" y="-705.13392857142856"/>
         </scene>
     </scenes>
     <resources>

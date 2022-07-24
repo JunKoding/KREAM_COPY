@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5A46EF1288D10AA0008D422 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A46EF0288D10AA0008D422 /* ViewController2.swift */; };
 		F5D4BD7F2887BCDD00E6F082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4BD7E2887BCDD00E6F082 /* AppDelegate.swift */; };
 		F5D4BD812887BCDD00E6F082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4BD802887BCDD00E6F082 /* SceneDelegate.swift */; };
 		F5D4BD832887BCDD00E6F082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4BD822887BCDD00E6F082 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5A46EF0288D10AA0008D422 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		F5D4BD7B2887BCDD00E6F082 /* KREAM_COPY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KREAM_COPY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D4BD7E2887BCDD00E6F082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5D4BD802887BCDD00E6F082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F5D4BD7E2887BCDD00E6F082 /* AppDelegate.swift */,
 				F5D4BD802887BCDD00E6F082 /* SceneDelegate.swift */,
 				F5D4BD822887BCDD00E6F082 /* ViewController.swift */,
+				F5A46EF0288D10AA0008D422 /* ViewController2.swift */,
 				F5D4BD842887BCDD00E6F082 /* Main.storyboard */,
 				F5D4BD872887BCDF00E6F082 /* Assets.xcassets */,
 				F5D4BD892887BCDF00E6F082 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D4BD832887BCDD00E6F082 /* ViewController.swift in Sources */,
+				F5A46EF1288D10AA0008D422 /* ViewController2.swift in Sources */,
 				F5D4BD7F2887BCDD00E6F082 /* AppDelegate.swift in Sources */,
 				F5D4BD812887BCDD00E6F082 /* SceneDelegate.swift in Sources */,
 			);
