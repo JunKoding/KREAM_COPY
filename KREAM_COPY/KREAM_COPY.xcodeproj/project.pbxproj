@@ -14,6 +14,7 @@
 		F5D4BD862887BCDD00E6F082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D4BD842887BCDD00E6F082 /* Main.storyboard */; };
 		F5D4BD882887BCDF00E6F082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D4BD872887BCDF00E6F082 /* Assets.xcassets */; };
 		F5D4BD8B2887BCDF00E6F082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D4BD892887BCDF00E6F082 /* LaunchScreen.storyboard */; };
+		F5ED99E62890F8CF00DCA255 /* Jun.png in Resources */ = {isa = PBXBuildFile; fileRef = F5ED99E52890F8CF00DCA255 /* Jun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F5D4BD872887BCDF00E6F082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D4BD8A2887BCDF00E6F082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5D4BD8C2887BCDF00E6F082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5ED99E52890F8CF00DCA255 /* Jun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		F5D4BD722887BCDD00E6F082 = {
 			isa = PBXGroup;
 			children = (
+				F5ED99E22890F4ED00DCA255 /* images */,
 				F5D4BD7D2887BCDD00E6F082 /* KREAM_COPY */,
 				F5D4BD7C2887BCDD00E6F082 /* Products */,
 			);
@@ -63,11 +66,19 @@
 				F5D4BD822887BCDD00E6F082 /* ViewController.swift */,
 				F5A46EF0288D10AA0008D422 /* ViewController2.swift */,
 				F5D4BD842887BCDD00E6F082 /* Main.storyboard */,
-				F5D4BD872887BCDF00E6F082 /* Assets.xcassets */,
 				F5D4BD892887BCDF00E6F082 /* LaunchScreen.storyboard */,
+				F5D4BD872887BCDF00E6F082 /* Assets.xcassets */,
 				F5D4BD8C2887BCDF00E6F082 /* Info.plist */,
 			);
 			path = KREAM_COPY;
+			sourceTree = "<group>";
+		};
+		F5ED99E22890F4ED00DCA255 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED99E52890F8CF00DCA255 /* Jun.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D4BD8B2887BCDF00E6F082 /* LaunchScreen.storyboard in Resources */,
+				F5ED99E62890F8CF00DCA255 /* Jun.png in Resources */,
 				F5D4BD882887BCDF00E6F082 /* Assets.xcassets in Resources */,
 				F5D4BD862887BCDD00E6F082 /* Main.storyboard in Resources */,
 			);
