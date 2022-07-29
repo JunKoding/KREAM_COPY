@@ -13,8 +13,8 @@ class ViewController2: UITabBarController {
         super.viewDidLoad()
         
         self.tabBar.isTranslucent = false
-        self.tabBar.tintColor = .green
-        self.tabBar.unselectedItemTintColor = .white
+        self.tabBar.tintColor = .white
+        self.tabBar.unselectedItemTintColor = .gray
         self.tabBar.barTintColor = .black
     }
 }
