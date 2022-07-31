@@ -77,7 +77,7 @@
                             <constraint firstItem="koy-pW-SHn" firstAttribute="trailing" secondItem="BRh-Lm-xj2" secondAttribute="trailing" id="jmP-5V-fpM"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="test2" image="book.circle.fill" catalog="system" id="UCz-km-3Ia"/>
+                    <tabBarItem key="tabBarItem" title="test2" image="heart.fill" catalog="system" id="UCz-km-3Ia"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
@@ -101,7 +101,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alo-MG-QLg">
                                                 <rect key="frame" x="10" y="10" width="394" height="1603"/>
-                                                <mutableString key="text">Where does it come from?
+                                                <string key="text">Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Where does it come from?
@@ -111,7 +111,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin</mutableString>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -146,7 +146,7 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
                             <constraint firstItem="Wo6-16-QVQ" firstAttribute="top" secondItem="AfH-1q-Go2" secondAttribute="top" id="wTd-pc-yeb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="book.circle.fill" catalog="system" id="xpc-ng-seI"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="heart.fill" catalog="system" id="xpc-ng-seI"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
@@ -156,7 +156,7 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
         </scene>
     </scenes>
     <resources>
-        <image name="book.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
