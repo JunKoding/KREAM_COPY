@@ -14,6 +14,10 @@
 		F5D4BD862887BCDD00E6F082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D4BD842887BCDD00E6F082 /* Main.storyboard */; };
 		F5D4BD882887BCDF00E6F082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D4BD872887BCDF00E6F082 /* Assets.xcassets */; };
 		F5D4BD8B2887BCDF00E6F082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D4BD892887BCDF00E6F082 /* LaunchScreen.storyboard */; };
+		F5E8DB532898B6820049457A /* kream_outside.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5E8DB4F2898B6820049457A /* kream_outside.jpeg */; };
+		F5E8DB542898B6820049457A /* kream.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5E8DB502898B6820049457A /* kream.jpeg */; };
+		F5E8DB552898B6820049457A /* Kream+shoes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5E8DB512898B6820049457A /* Kream+shoes.jpeg */; };
+		F5E8DB562898B6820049457A /* shoes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5E8DB522898B6820049457A /* shoes.jpeg */; };
 		F5ED99E62890F8CF00DCA255 /* Jun.png in Resources */ = {isa = PBXBuildFile; fileRef = F5ED99E52890F8CF00DCA255 /* Jun.png */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,10 @@
 		F5D4BD872887BCDF00E6F082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D4BD8A2887BCDF00E6F082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5D4BD8C2887BCDF00E6F082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E8DB4F2898B6820049457A /* kream_outside.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kream_outside.jpeg; sourceTree = "<group>"; };
+		F5E8DB502898B6820049457A /* kream.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kream.jpeg; sourceTree = "<group>"; };
+		F5E8DB512898B6820049457A /* Kream+shoes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kream+shoes.jpeg"; sourceTree = "<group>"; };
+		F5E8DB522898B6820049457A /* shoes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes.jpeg; sourceTree = "<group>"; };
 		F5ED99E52890F8CF00DCA255 /* Jun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				F5ED99E52890F8CF00DCA255 /* Jun.png */,
+				F5E8DB502898B6820049457A /* kream.jpeg */,
+				F5E8DB522898B6820049457A /* shoes.jpeg */,
+				F5E8DB512898B6820049457A /* Kream+shoes.jpeg */,
+				F5E8DB4F2898B6820049457A /* kream_outside.jpeg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E8DB532898B6820049457A /* kream_outside.jpeg in Resources */,
 				F5D4BD8B2887BCDF00E6F082 /* LaunchScreen.storyboard in Resources */,
+				F5E8DB562898B6820049457A /* shoes.jpeg in Resources */,
+				F5E8DB552898B6820049457A /* Kream+shoes.jpeg in Resources */,
+				F5E8DB542898B6820049457A /* kream.jpeg in Resources */,
 				F5ED99E62890F8CF00DCA255 /* Jun.png in Resources */,
 				F5D4BD882887BCDF00E6F082 /* Assets.xcassets in Resources */,
 				F5D4BD862887BCDD00E6F082 /* Main.storyboard in Resources */,
