@@ -48,11 +48,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kream.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aWd-da-2ba">
-                                                <rect key="frame" x="87" y="8" width="240" height="128"/>
+                                                <rect key="frame" x="10" y="8" width="140" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kream_outside.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cK7-Z4-qsw">
-                                                <rect key="frame" x="87" y="156" width="240" height="128"/>
+                                                <rect key="frame" x="208" y="8" width="140" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
