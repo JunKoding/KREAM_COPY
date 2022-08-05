@@ -20,11 +20,71 @@
                     <connections>
                         <segue destination="Qfd-tm-2Du" kind="relationship" relationship="viewControllers" id="dv0-hT-imM"/>
                         <segue destination="WDG-wn-awC" kind="relationship" relationship="viewControllers" id="6E8-xc-17Q"/>
+                        <segue destination="ZO6-A5-vHj" kind="relationship" relationship="viewControllers" id="pYP-S8-Oec"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4M-Lp-slH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1917" y="-1639"/>
+        </scene>
+        <!--test3-->
+        <scene sceneID="e70-n0-Tri">
+            <objects>
+                <viewController id="ZO6-A5-vHj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GCm-eC-RWX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJT-9q-qzS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNb-tI-s5e">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="994"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmI-yl-nW7">
+                                                <rect key="frame" x="10" y="10" width="394" height="974"/>
+                                                <mutableString key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="xmI-yl-nW7" firstAttribute="leading" secondItem="fNb-tI-s5e" secondAttribute="leading" constant="10" id="iNq-0h-YUk"/>
+                                            <constraint firstAttribute="trailing" secondItem="xmI-yl-nW7" secondAttribute="trailing" constant="10" id="jks-IY-iKm"/>
+                                            <constraint firstItem="xmI-yl-nW7" firstAttribute="top" secondItem="fNb-tI-s5e" secondAttribute="top" constant="10" id="qEz-yw-0jM"/>
+                                            <constraint firstAttribute="bottom" secondItem="xmI-yl-nW7" secondAttribute="bottom" constant="10" id="ujR-sO-9Cd"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fNb-tI-s5e" firstAttribute="top" secondItem="fnn-Ub-yng" secondAttribute="top" id="IOr-m5-p49"/>
+                                    <constraint firstItem="fNb-tI-s5e" firstAttribute="width" secondItem="EOV-dw-ODQ" secondAttribute="width" id="TrB-ux-tFH"/>
+                                    <constraint firstItem="fNb-tI-s5e" firstAttribute="leading" secondItem="fnn-Ub-yng" secondAttribute="leading" id="X6r-PK-Ikg"/>
+                                    <constraint firstItem="fNb-tI-s5e" firstAttribute="trailing" secondItem="fnn-Ub-yng" secondAttribute="trailing" id="hZp-T1-xSB"/>
+                                    <constraint firstItem="fNb-tI-s5e" firstAttribute="bottom" secondItem="fnn-Ub-yng" secondAttribute="bottom" id="vf3-OW-qgV"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="fnn-Ub-yng"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="EOV-dw-ODQ"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dQj-HT-fsA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fJT-9q-qzS" firstAttribute="top" secondItem="dQj-HT-fsA" secondAttribute="top" id="AEf-6s-1Yh"/>
+                            <constraint firstItem="fJT-9q-qzS" firstAttribute="leading" secondItem="dQj-HT-fsA" secondAttribute="leading" id="HdO-8H-SnF"/>
+                            <constraint firstAttribute="bottom" secondItem="fJT-9q-qzS" secondAttribute="bottom" id="nTn-CH-riJ"/>
+                            <constraint firstItem="dQj-HT-fsA" firstAttribute="trailing" secondItem="fJT-9q-qzS" secondAttribute="trailing" id="tyK-DL-GTD"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="test3" image="heart.fill" catalog="system" id="isG-a1-ph9"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vFg-vR-NIL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823" y="-704"/>
         </scene>
         <!--test2-->
         <scene sceneID="aNr-2n-Jv4">
@@ -83,9 +143,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwn-KV-L3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1446.376811594203" y="-705.13392857142856"/>
+            <point key="canvasLocation" x="-1916" y="-705"/>
         </scene>
-        <!--Item-->
+        <!--HOME-->
         <scene sceneID="Hy4-r2-Kb1">
             <objects>
                 <viewController id="Qfd-tm-2Du" customClass="ViewController" customModule="KREAM_COPY" customModuleProvider="target" sceneMemberID="viewController">
@@ -97,21 +157,10 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JD3-A5-qfM">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1623"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="40.333333333333336"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alo-MG-QLg">
-                                                <rect key="frame" x="10" y="10" width="394" height="1603"/>
-                                                <string key="text">Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin</string>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is Home!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alo-MG-QLg">
+                                                <rect key="frame" x="10" y="9.9999999999999982" width="394" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -146,13 +195,13 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
                             <constraint firstItem="Wo6-16-QVQ" firstAttribute="top" secondItem="AfH-1q-Go2" secondAttribute="top" id="wTd-pc-yeb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="heart.fill" catalog="system" id="xpc-ng-seI"/>
+                    <tabBarItem key="tabBarItem" title="HOME" image="heart.fill" catalog="system" id="xpc-ng-seI"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GG7-7N-RGk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2304.3478260869565" y="-705.13392857142856"/>
+            <point key="canvasLocation" x="-3109" y="-705"/>
         </scene>
     </scenes>
     <resources>
