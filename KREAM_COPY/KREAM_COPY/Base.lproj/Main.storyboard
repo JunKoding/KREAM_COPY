@@ -21,28 +21,11 @@
                         <segue destination="Qfd-tm-2Du" kind="relationship" relationship="viewControllers" id="dv0-hT-imM"/>
                         <segue destination="WDG-wn-awC" kind="relationship" relationship="viewControllers" id="6E8-xc-17Q"/>
                         <segue destination="ZO6-A5-vHj" kind="relationship" relationship="viewControllers" id="pYP-S8-Oec"/>
-                        <segue destination="oVG-jq-Jn4" kind="relationship" relationship="viewControllers" id="4PV-Kb-9DP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4M-Lp-slH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1917" y="-1639"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="O8N-wh-Tvv">
-            <objects>
-                <viewController id="oVG-jq-Jn4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UeY-2E-s2g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Kex-07-YTb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="o51-9i-c3b"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cM7-PB-8je" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-367" y="-906"/>
         </scene>
         <!--test3-->
         <scene sceneID="e70-n0-Tri">
