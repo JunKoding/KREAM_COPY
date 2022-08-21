@@ -21,7 +21,6 @@
                         <segue destination="Qfd-tm-2Du" kind="relationship" relationship="viewControllers" id="dv0-hT-imM"/>
                         <segue destination="WDG-wn-awC" kind="relationship" relationship="viewControllers" id="6E8-xc-17Q"/>
                         <segue destination="ZO6-A5-vHj" kind="relationship" relationship="viewControllers" id="pYP-S8-Oec"/>
-                        <segue destination="UJ6-6K-c1i" kind="relationship" relationship="viewControllers" id="qQn-UB-oFF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h4M-Lp-slH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -86,35 +85,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vFg-vR-NIL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1426" y="-704"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="FYQ-nn-meW">
-            <objects>
-                <viewController id="UJ6-6K-c1i" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vWt-CV-cMU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zTw-BG-5eR">
-                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="mhs-X6-4Zv"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="mYP-iZ-xA2"/>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Yy5-Pt-6yy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="zTw-BG-5eR" firstAttribute="top" secondItem="Yy5-Pt-6yy" secondAttribute="top" id="HpS-Ku-XLO"/>
-                            <constraint firstAttribute="bottom" secondItem="zTw-BG-5eR" secondAttribute="bottom" id="RBC-ly-Efa"/>
-                            <constraint firstItem="Yy5-Pt-6yy" firstAttribute="trailing" secondItem="zTw-BG-5eR" secondAttribute="trailing" id="tJ6-aI-cOC"/>
-                            <constraint firstItem="zTw-BG-5eR" firstAttribute="leading" secondItem="Yy5-Pt-6yy" secondAttribute="leading" id="wdt-uw-R6D"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="udw-Jm-oUX"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bdu-fy-HX2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-478.26086956521743" y="-906.02678571428567"/>
         </scene>
         <!--test2-->
         <scene sceneID="aNr-2n-Jv4">
